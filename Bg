@@ -1,0 +1,9 @@
+body {
+    background-color: #E6CCFF; /* Light purple */
+}
+
+.butterfly-background {
+    background-image: url('path/to/butterfly-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
