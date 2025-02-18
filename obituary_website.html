@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Loving Memory</title>
+    <style>
+        body {
+            background-color: #E6CCFF; /* Light purple */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .banner {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .photo img {
+            width: 200px;
+            border-radius: 50%;
+        }
+        .tribute {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .butterfly {
+            width: 50px;
+            position: absolute;
+            animation: fly 5s infinite alternate;
+        }
+        @keyframes fly {
+            from { transform: translateY(0); }
+            to { transform: translateY(-20px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="banner">In Loving Memory of [Name]</div>
+        <p>[Date of Birth] – [Date of Passing]</p>
+        <div class="photo">
+            <img src="photo.jpg" alt="Memorial Photo">
+        </div>
+        <div class="tribute">
+            <p>[A short heartfelt message about the person]</p>
+        </div>
+        <h3>Tributes</h3>
+        <textarea rows="4" cols="50" placeholder="Leave a message..."></textarea>
+        <br>
+        <button>Submit</button>
+    </div>
+    <img class="butterfly" src="butterfly.png" alt="Butterfly">
+</body>
+</html>
